@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between">
       <Link className="text-red-500 font-semibold text-2xl" href="">
-        Alex Pizza
+        Alan Pizza
       </Link>
       <nav className="flex gap-8 text-gray-500 font-semibold">
         <Link href={''}>Home</Link>
@@ -12,7 +12,10 @@ export default function Header() {
         <Link href={''}>About</Link>
         <Link href={''}>Contact</Link>
       </nav>
-      <Link className="bg-primary text-white px-8 py-2 rounded-full" href={''}>
+      <Link
+        className="bg-primary text-white px-8 py-2 rounded-full cursor-pointer"
+        href={''}
+      >
         Login
       </Link>
     </header>

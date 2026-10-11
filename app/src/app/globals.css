@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @config "../../tailwind.config.js";
+
+section.hero {
+    display: grid;
+    grid-template-columns: 0.4fr .6fr;
+}

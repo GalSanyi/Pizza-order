@@ -1,6 +1,16 @@
-{
-  "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+﻿{
+    "javascript.suggest.autoImports":  true,
+    "typescript.suggest.autoImports":  true,
+    "javascript.updateImportsOnFileMove.enabled":  "always",
+    "typescript.updateImportsOnFileMove.enabled":  "always",
+    "emmet.includeLanguages":  {
+                                   "javascript":  "javascriptreact",
+                                   "javascriptreact":  "javascriptreact"
+                               },
+    "emmet.triggerExpansionOnTab":  true,
+    "emmet.showAbbreviationSuggestions":  true,
+    "emmet.showExpandedAbbreviation":  "always",
+    "editor.tabCompletion":  "on",
+    "css.lint.unknownAtRules":  "ignore",
+    "editor.autoClosingTags":  "always"
 }
